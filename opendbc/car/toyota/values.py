@@ -283,7 +283,7 @@ class CAR(Platforms):
   )
   TOYOTA_YARIS = ToyotaSecOCPlatformConfig(
     [ToyotaCarDocs("Toyota Yaris 2023 (Non-US only)", min_enable_speed=MIN_ACC_SPEED)],
-    CarSpecs(mass=1170, wheelbase=2.55, steerRatio=14.80, tireStiffnessFactor=0.5533),
+    CarSpecs(mass=1836.0, wheelbase=2.700000047683716, steerRatio= 13.0, tireStiffnessFactor=1.0),
     flags=ToyotaFlags.RADAR_ACC,
   )
   TOYOTA_MIRAI = ToyotaTSS2PlatformConfig( # TSS 2.5
